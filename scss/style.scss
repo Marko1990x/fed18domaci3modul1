@@ -1,4 +1,22 @@
-*{
+h1{
+    text-align: center;
+    width: 65%;
+}
+table{
+    width: 65%;
     margin: 0%;
-    padding: 0%;
+    border-collapse: collapse;
+    
+}
+thead{
+    border-bottom: 2px solid blue;
+}
+th{
+    background: #dfdfdf;
+}
+tr>*{
+    border: 1px solid black;
+}
+table td{
+    text-align: center;
 }
